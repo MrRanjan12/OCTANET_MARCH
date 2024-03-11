@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-image: url("https://images.unsplash.com/photo-1528460033278-a6ba57020470?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: auto
+    /* background-position:center; */
+}
+nav {
+    background-color: #2baeff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 1.5vh;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #1b6af1;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.add-task {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="date"], select {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-color: #2baeff;
+
+}
+
+    
+
+
+button {
+    width: 100%;
+    background-color: rgba(35, 171, 255, 0.829); /* Blue color with 50% opacity */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.button:hover {
+    background-color: rgba(31, 31, 254, 0.7); /* Blue color with 70% opacity on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li span {
+    display: block;
+}
+
+footer {
+    background-color:#2baeff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    input[type="text"], input[type="date"], select, button {
+        margin-bottom: 5px;
+    }
+    body {
+        background-image: url("https://images.unsplash.com/photo-1564951434112-64d74cc2a2d7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-size: auto;
+        transition: background-image 0.8s ease-in-out;
+    }
+}
